@@ -11,15 +11,16 @@ API_HASH = os.environ.get("API_HASH", "9233e5deebe6abfc9ba297a9678851be")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "8035487404"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://sample1:l7rxlfzxja1oVGjE@cluster0.blyhf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://sanjusen212121:dRTWTRgVX19SJwTk@cluster0.2nwk3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002327068809"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002415894700"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "180")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "300")) # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8080")
